@@ -78,6 +78,10 @@ input[type=submit]{
     margin-top: 30px;
     margin-bottom: -10px;
 }
+input[type=submit]:active{
+    background-color: #06b69e;
+    color: black;
+}
 #agreement{
     margin-right: 5px;
 }
@@ -85,7 +89,9 @@ input[type=submit]{
     display: inline-block;
     width: auto;
 }
-
+#agreement-label:checked{
+color: blue;
+}
 .error-validation{
     color: red;
     position: absolute;
