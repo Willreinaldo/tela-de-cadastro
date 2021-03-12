@@ -75,7 +75,7 @@ input[type=submit]{
     cursor: pointer;
     border-radius: 20px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: -10px;
 }
 input[type=submit]:active{
